@@ -11,8 +11,6 @@
 require_once get_parent_theme_file_path('/functions/functions-clearWP.php');
 // 给每个RSSfeed里面增加最新文章列表和版权说明
 require_once get_parent_theme_file_path('/functions/functions-addFeedText.php');
-// 修改时间的显示格式为XXX秒、分钟、小时、天前
-require_once get_parent_theme_file_path('/functions/functions-pastDate.php');
 // 让主题增加识别webp格式图片
 require_once get_parent_theme_file_path('/functions/functions-addWebp.php');
 // 增加备案号到常规字段里

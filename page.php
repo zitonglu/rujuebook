@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php get_header();
+/*
+Template Name:普通单页面模板
+*/
+?>
 <div class="book-body">
     <div class="body-inner">
 		<div class="book-header" role="navigation">
@@ -10,21 +14,13 @@
                     if (have_posts()){
                         while ( have_posts()){
                             the_post();
-                            get_template_part('content/content',get_post_format());
+                            get_template_part('content/content-single',get_post_format());
                         }
                     }?>
              </div>
         </div>
-<!--         <div class="banquan">
-            sgjsjfgs
-        </div>  -->
+        <?php get_template_part('footer-nav');?><!-- 获取底部footer -->
     </div>
-    <!-- <a href="" rel="nofollow" class="navigation navigation-prev" id="shangyige">
-        <i class="fa fa-angle-left"></i>
-    </a>
-    <a href="" rel="nofollow" class="navigation navigation-next" id="xiayige">
-        <i class="fa fa-angle-right"></i>
-    </a> -->
 </div>
 </div>
 <?php get_footer(); ?>

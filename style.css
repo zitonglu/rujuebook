@@ -18,10 +18,7 @@ a:focus{outline: thin dotted}
 a:active,a:hover{outline:0}
 a{color:#fe7e00;margin-left:0.2em;margin-right:0.2em;}
 
-h1 {
-	margin: .67em 0;
-	font-size: 2em
-}
+h1{margin: .67em 0;font-size: 2em}
 
 abbr[title] {
 	border-bottom: 1px dotted
@@ -3130,7 +3127,7 @@ table {
 	position: relative;
 	display: block;
 	overflow: hidden;
-	padding: 10px 15px;
+	padding:3px 15px;
 	border-bottom: none;
 	background: 0 0;
 	color: #364149;
@@ -3148,7 +3145,7 @@ table {
 
 .book-summary ul.summary li.current-menu-item>a {
 	background: 0 0;
-	color: #008cff;
+	color: #fe7e00;
 	text-decoration: none
 }
 
@@ -3349,8 +3346,9 @@ table {
 	margin-bottom: .85em
 }
 
-.markdown-section a {background:0 0;text-decoration:none;color:#fe7e00}
-.markdown-section a:active,.markdown-section a:focus,.markdown-section a:hover{
+.markdown-section a,.footer-nav a{background:0 0;text-decoration:none;color:#fe7e00}
+.markdown-section a:active,.markdown-section a:focus,.markdown-section a:hover,
+.footer-nav a:active,.footer-nav a:focus,.footer-nav a:hover{
 	outline:0;
 	text-decoration:underline;
 	color:#B66847;
@@ -3911,7 +3909,7 @@ body {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%
 }
-.banquan {
+.footer-nav {
 	padding: 25px;
 	color: #a0a0a0;
 	text-align: center

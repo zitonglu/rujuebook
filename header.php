@@ -9,7 +9,9 @@
 <link href="<?php bloginfo('template_directory'); ?>/style.css?v=0.1" rel="stylesheet">
 <link href="<?php bloginfo('template_directory'); ?>/css/bootstrap.css" rel="stylesheet">
 <link href="<?php bloginfo('template_directory'); ?>/website.css" rel="stylesheet">
-<script src="<?php bloginfo('template_directory'); ?>/js/jquery.min.js" type="text/javascript"></script>
+<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/favicon.ico" type="image/x-icon"/>
+
+<?php echo get_option('rujuebook_top_JQ');?>
 <?php wp_head(); ?>
 </head>
 <body>
@@ -27,7 +29,6 @@
 	        background-size: contain;
 	        background-position: 16px center;
 	        height: 48px;
-	        width: 100%;
 	        display: block;
 	      }
 	    </style>

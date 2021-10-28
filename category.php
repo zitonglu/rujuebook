@@ -5,7 +5,7 @@
 		    <h1><a href="<?php global $wp; $current_url = home_url(add_query_arg(array(),$wp->request));echo $current_url;?>"><?php single_cat_title(); ?></a></h1>
 		</div> 
 		<div class="page-wrapper" tabindex="-1" role="main">
-			<div class="page-inner container">
+			<div class="container">
 				<div id="masonry">
 				<?php
                     if (have_posts()){

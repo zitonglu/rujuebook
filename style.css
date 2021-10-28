@@ -16,28 +16,23 @@ body{margin: 0}
 
 a:focus{outline: thin dotted}
 a:active,a:hover{outline:0}
-a{color:#fe7e00;margin-left:0.2em;margin-right:0.2em;}
-
+.category a{color:#fe7e00}
+.page-inner a{color:#fe7e00;margin-left:0.2em;margin-right:0.2em;}
 h1{margin: .67em 0;font-size: 2em}
-
 abbr[title] {
 	border-bottom: 1px dotted
 }
-
 b,strong {
 	font-weight: 700
 }
-
 dfn {
 	font-style: italic
 }
-
 hr {
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 	height: 0
 }
-
 mark {
 	background: #ff0;
 	color: #000
@@ -51,15 +46,12 @@ code,kbd,pre,samp {
 pre {
 	white-space: pre-wrap
 }
-
-q {
+q{
 	quotes: "\201C" "\201D" "\2018" "\2019"
 }
-
 small {
 	font-size: 80%
 }
-
 sub,sup {
 	position: relative;
 	vertical-align: baseline;
@@ -3220,7 +3212,7 @@ table {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	overflow-y: auto
+	/*overflow-y: auto*/
 }
 
 @media (max-width:1240px) {
@@ -3243,7 +3235,7 @@ table {
 	outline: 0
 }
 
-.page-inner {
+.page-inner{
 	position: relative;
 	margin: 0 auto;
 	padding: 20px 15px 40px;

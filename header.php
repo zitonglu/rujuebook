@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="renderer" content="webkit">
 <?php include('seo.php'); ?>
-<link href="<?php bloginfo('template_directory'); ?>/style.css?v=0.1" rel="stylesheet">
+<link href="<?php bloginfo('template_directory'); ?>/style.css?v=0.11" rel="stylesheet">
 <link href="<?php bloginfo('template_directory'); ?>/css/bootstrap.css" rel="stylesheet">
 <link href="<?php bloginfo('template_directory'); ?>/website.css" rel="stylesheet">
 <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/favicon.ico" type="image/x-icon"/>
@@ -14,7 +14,7 @@
 <?php echo get_option('rujuebook_top_JQ');?>
 <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class($class); ?>>
 <div class="book">
 <div class="book-summary">
 	<div id="book-search-input">

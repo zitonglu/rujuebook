@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="renderer" content="webkit">
 <?php include('seo.php'); ?>
-<link href="<?php bloginfo('template_directory'); ?>/style.css?v=0.11" rel="stylesheet">
+<link href="<?php bloginfo('template_directory'); ?>/style.css?v=0.12" rel="stylesheet">
 <link href="<?php bloginfo('template_directory'); ?>/css/bootstrap.css" rel="stylesheet">
 <link href="<?php bloginfo('template_directory'); ?>/website.css" rel="stylesheet">
 <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/favicon.ico" type="image/x-icon"/>

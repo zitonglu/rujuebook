@@ -21,15 +21,16 @@ require_once get_parent_theme_file_path('/functions/functions-CDN.php');
 require_once get_parent_theme_file_path('/functions/functions-option.php');
 // 增加文章侧栏自定义字段
 require_once get_parent_theme_file_path('/functions/functions-addSideInput.php');
+// 获取文章下页页面的URL
+require_once get_parent_theme_file_path('/functions/functions-getpostslink.php');
 
 //开启缩略图
 if(function_exists('add_theme_support')){add_theme_support('post-thumbnails');};
 
 // 开启主题的导航
-if( function_exists('register_sidebar')){
-    register_nav_menus( array(
+if(function_exists('register_sidebar')){
+    register_nav_menus(array(
     'primary' => __('导航','rujuebook'),
-    ));
+   ));
 }
-
 ?>

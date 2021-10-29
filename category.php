@@ -15,17 +15,23 @@
                         }
                     }?>
                 </div>
-                <nav id="nav-below">
-				  <ul class="pager">
-				    <li><?php previous_posts_link(__('上一页','rujuebook')) ?></li>
-				    <li id="older_posts"><?php next_posts_link(__('下一页','rujuebook')) ?></li>
-				  </ul>
-				</nav><!-- nav-below end -->
+                <?php get_template_part('footer-nav');?><!-- 获取底部footer -->
 				<hr>
 				<p class="text-center"><?php _e('自动加载完成，这是底线','rujuebook')?></p>
 			</div>
 		</div>
     </div>
-</div>
-</div>
+    <nav id="nav-below">
+	    <?php $prev_post = get_the_previous_posts_link(); if (!empty($prev_post)): ?>
+	        <a href="<?php echo $prev_post; ?>" class="navigation navigation-prev" id="shangyige">
+	            <i class="fa fa-angle-left"></i>
+	        </a>
+	    <?php endif; ?>
+	    <?php $next_post = get_the_next_posts_link(); if (!empty($next_post)): ?>
+	        <a href="<?php echo $next_post; ?>" class="navigation navigation-next" id="xiayige">
+	            <i class="fa fa-angle-right"></i>
+	        </a>
+	    <?php endif; ?>
+	</nav>
+</div><!-- end book-body -->
 <?php get_footer(); ?>

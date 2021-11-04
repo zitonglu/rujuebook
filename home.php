@@ -14,15 +14,12 @@
                       </span>
                     </div><!-- end input-group -->
                 </form>
-                <hr>
+                <br>
                 <?php 
                 wp_nav_menu(array(
                   'theme_location'=>'homelink',
-                  'container_class' => 'nav nav-pills',
                   'menu_class'=>'nav nav-pills',
-                  'depth' => 10,
-                  // 'link_before'  => '<div class="btn btn-default">',
-                  // 'link_after'  => '</div>',
+                  'depth' => 1,
                 ));?>
           </div><!-- end page-inner -->
         </div><!-- end page-wrapper -->

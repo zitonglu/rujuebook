@@ -31,6 +31,7 @@ if(function_exists('add_theme_support')){add_theme_support('post-thumbnails');};
 if(function_exists('register_sidebar')){
     register_nav_menus(array(
     'primary' => __('导航','rujuebook'),
+    'homelink' => __('首页导航','rujuebook'),
    ));
 }
 ?>

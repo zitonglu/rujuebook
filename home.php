@@ -14,8 +14,19 @@
                       </span>
                     </div><!-- end input-group -->
                 </form>
-            </div><!-- end page-inner -->
+                <hr>
+                <?php 
+                wp_nav_menu(array(
+                  'theme_location'=>'homelink',
+                  'container_class' => 'nav nav-pills',
+                  'menu_class'=>'nav nav-pills',
+                  'depth' => 10,
+                  // 'link_before'  => '<div class="btn btn-default">',
+                  // 'link_after'  => '</div>',
+                ));?>
+          </div><!-- end page-inner -->
         </div><!-- end page-wrapper -->
+        <?php get_template_part('footer-nav');?><!-- 获取底部footer -->
     </div><!-- end body-inner -->
 </div><!-- end book-body -->
 <?php get_footer(); ?>

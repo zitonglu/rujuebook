@@ -1,14 +1,14 @@
-<script src="<?php bloginfo('template_directory'); ?>/js/jquery.min.js" type="text/javascript"></script>
-<script src="<?php bloginfo('template_directory'); ?>/js/js.js"></script>
-<script src="<?php bloginfo('template_directory'); ?>/js/wordbook.js"></script>
-<script src="<?php bloginfo('template_directory'); ?>/js/theme.js"></script>
-<script src="<?php bloginfo('template_directory'); ?>/js/bootstrap.js"></script>
-<script src="<?php bloginfo('template_directory'); ?>/js/fontsettings.js"></script>
+<script src="<?php _echo_CDN_URL('jquery.min.js')?>" type="text/javascript"></script>
+<script src="<?php _echo_CDN_URL('js.js')?>"></script>
+<script src="<?php _echo_CDN_URL('wordbook.js')?>"></script>
+<script src="<?php _echo_CDN_URL('theme.js')?>"></script>
+<script src="<?php _echo_CDN_URL('bootstrap.min.js')?>"></script>
+<script src="<?php _echo_CDN_URL('fontsettings.js')?>"></script>
 <?php if(is_category() || is_archive() || is_search()):?>
-	<script src="<?php bloginfo('template_directory'); ?>/js/infinitescroll.min.js"></script>
-	<script src="<?php bloginfo('template_directory'); ?>/js/masonry.min.js"></script>
-	<script src="<?php bloginfo('template_directory'); ?>/js/imagesloaded.min.js"></script>
-	<script src="<?php bloginfo('template_directory'); ?>/js/category.js"></script>
+	<script src="<?php _echo_CDN_URL('infinitescroll.min.js')?>"></script>
+	<script src="<?php _echo_CDN_URL('masonry.min.js')?>"></script>
+	<script src="<?php _echo_CDN_URL('imagesloaded.min.js')?>"></script>
+	<script src="<?php _echo_CDN_URL('category.js')?>"></script>
 <?php endif; ?>
 
 <?php wp_footer();?>

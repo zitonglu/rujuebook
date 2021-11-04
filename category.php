@@ -15,9 +15,8 @@
                         }
                     }?>
                 </div>
+                <p class="text-center"><?php _e('自动加载完成，这是底线','rujuebook')?></p><hr>
                 <?php get_template_part('footer-nav');?><!-- 获取底部footer -->
-				<hr>
-				<p class="text-center"><?php _e('自动加载完成，这是底线','rujuebook')?></p>
 			</div>
 		</div>
     </div>

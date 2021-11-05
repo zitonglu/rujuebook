@@ -8,7 +8,7 @@
 <?php include('seo.php'); ?>
 <link href="<?php _echo_CDN_URL('bootstrap.min.css','css')?>" rel="stylesheet">
 <link href="<?php _echo_CDN_URL('website.css','css')?>" rel="stylesheet">
-<link href="<?php bloginfo('template_directory'); ?>/style.css?v=0.13" rel="stylesheet">
+<link href="<?php bloginfo('template_directory'); ?>/style.css?v=0.15" rel="stylesheet">
 <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/favicon.ico" type="image/x-icon"/>
 
 <?php echo get_option('rujuebook_top_JQ');?>

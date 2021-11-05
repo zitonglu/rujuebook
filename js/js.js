@@ -2,8 +2,7 @@
 var gitbook = gitbook || [];
 gitbook.push(function() {
     gitbook.page.hasChanged({
-        "page": {
-        },
+        "page": {},
         "config": {
             "pluginsConfig": {
                 "fontsettings":{"theme":"white","family":"sans","size":2},
@@ -12,10 +11,8 @@ gitbook.push(function() {
                 },
             },
         },
-        "file": {
-        },
-        "gitbook": {
-        },
+        "file": {},
+        "gitbook": {},
         "basePath": ".",
         "book": {}
     });

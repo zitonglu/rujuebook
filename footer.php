@@ -2,8 +2,9 @@
 <script src="<?php _echo_CDN_URL('js.js')?>"></script>
 <script src="<?php _echo_CDN_URL('wordbook.js')?>"></script>
 <script src="<?php _echo_CDN_URL('theme.js')?>"></script>
-<script src="<?php _echo_CDN_URL('bootstrap.min.js')?>"></script>
 <script src="<?php _echo_CDN_URL('fontsettings.js')?>"></script>
+<script src="<?php _echo_CDN_URL('bootstrap.min.js')?>"></script>
+
 <?php if(is_category() || is_archive() || is_search()):?>
 	<script src="<?php _echo_CDN_URL('infinitescroll.min.js')?>"></script>
 	<script src="<?php _echo_CDN_URL('masonry.min.js')?>"></script>

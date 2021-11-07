@@ -11,7 +11,7 @@
                 <?php if (have_posts()){
                         while (have_posts()){
                             the_post();
-                            get_template_part('content/content',get_post_format());
+                            get_template_part('content/content-category',get_post_format());
                         }
                     }?>
                 </div><!-- end masonry -->

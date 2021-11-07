@@ -19,6 +19,7 @@ a:active,a:hover{outline:0}
 .category a{color:#fe7e00}
 .page-inner a{color:#fe7e00;margin-left:0.2em;margin-right:0.2em;}
 
+
 .book-header{z-index:2;overflow:visible;padding:0 8px;height:50px;background:0 0;color:#7e888b;font-size:.85em;font-family:Helvetica Neue,Helvetica,Arial,sans-serif}
 .book-header .btn{position:relative;display:block;padding:0 15px;height:50px;border-bottom:none;-webkit-box-shadow:none!important;box-shadow:none!important;color:#ccc;text-transform:uppercase;font-size:14px;line-height:50px}
 .book-header .btn:hover{position:relative;background:0 0;color:#444;text-decoration:none}
@@ -130,6 +131,7 @@ a:active,a:hover{outline:0}
 .markdown-section dl dd{margin-bottom:.85em;padding:0 .85em}
 .markdown-section dd{margin-left:0}
 .markdown-section .glossary-term{text-decoration:underline;cursor:help}
+section.markdown-section>section{margin-bottom:0.75em}
 
 .navigation{position:absolute;top:50px;bottom:0;display:flex;margin:0;max-width:150px;min-width:90px;color:#ccc;text-align:center;font-size:40px;-webkit-transition:all .35s ease;-moz-transition:all .35s ease;-o-transition:all .35s ease;transition:all .35s ease;justify-content:center;align-content:center;flex-direction:column}
 .navigation:hover{color:#444;text-decoration:none}
